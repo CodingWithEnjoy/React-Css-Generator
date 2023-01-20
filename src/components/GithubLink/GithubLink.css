@@ -1,0 +1,29 @@
+.aws-btn1 {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --button-default-height: 54px;
+    --button-default-font-size: 16px;
+    --button-default-border-radius: 50%;
+    --button-raise-level: 5px;
+    --button-hover-pressure: 2.5;
+    --transform-speed: 0.225s;
+    --button-primary-color: linear-gradient(222deg, rgba(94, 1, 152, 1) 0%, rgba(197, 18, 205, 1) 100%);
+    --button-primary-color-dark: #3c005c;
+    --button-primary-color-light: #d9d8d8;
+    --button-primary-color-hover: linear-gradient(222deg, rgba(94, 1, 152, 1) 0%, rgba(197, 18, 205, 1) 100%);
+    --button-primary-border: 0px solid #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+    .aws-btn1{
+        display: none;
+    }
+}

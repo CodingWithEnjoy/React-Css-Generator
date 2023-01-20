@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+.author{
+    color: #eee;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+    letter-spacing: 1px;
+}

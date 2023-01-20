@@ -1,0 +1,52 @@
+.menu {
+    width: 40vh;
+    max-height: 100vh;
+    background-color: #eee;
+    color: #161623;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    gap: 40px;
+    top: 65px;
+    left: -100%;
+    transition: all .6s ease-in-out;
+    padding: 40px 0 100px;
+    overflow: auto;
+}
+
+.active {
+    left: 0;
+}
+
+.group_Menu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.title_Menu {
+    color: #161623;
+    font-weight: bold;
+}
+
+.Menu_btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn_Menu {
+    color: #161623;
+}
+
+.btn_Menu:hover {
+    color: rgba(197, 18, 205, 1);
+}
+
+.actived{
+    color: rgba(197, 18, 205, 1);
+}

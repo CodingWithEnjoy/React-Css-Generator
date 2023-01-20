@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Cascadia Code Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cascadia Code Regular'), url('./../../public/font/Cascadia.woff') format('woff');
+}
+
+.style_Container {
+    width: 100%;
+    max-width: 1190px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px 50px;
+}
+
+.titr {
+    color: #fff;
+    align-self: flex-start;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.top_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.preview_wraper {
+    width: 600px;
+    height: 350px;
+    background: linear-gradient(222deg, rgba(63,74,93,1) 0%, rgba(27,23,27,1) 100%);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.preview_box {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.copy_code_wraper span,
+.option_wraper span,
+.preview_wraper span {
+    color: #fff;
+    font-size: 18px;
+}
+
+.code_box {
+    width: 500px;
+    height: 100px;
+    background: linear-gradient(222deg, rgba(63,74,93,1) 0%, rgba(27,23,27,1) 100%);
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.copyBtn {
+    width: 500px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 0 0 5px 5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(222deg, rgba(94,1,152,1) 0%, rgba(197,18,205,1) 100%);
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.copyBtn:hover{
+    letter-spacing: 3px;
+}
+
+.code_box span {
+    margin: 0 3px;
+    font-family: 'Cascadia Code Regular';
+}
+
+.code_box span.code_one {
+    color: #80cbc4;
+}
+
+.code_box span.code_two {
+    color: #addb67;
+}
+
+.code_box span.code_three {
+    color: #f78c6c;
+}
+
+.option_wraper {
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 5px;
+    background: linear-gradient(222deg, rgba(63,74,93,1) 0%, rgba(27,23,27,1) 100%);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.options {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.input_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input_box label {
+    color: #fff;
+}
+
+.input_box input,
+select {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+input[type="range"] {
+    height: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(222deg, rgba(94,1,152,1) 0%, rgba(197,18,205,1) 100%);
+
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+    height: 25px;
+    width: 25px;
+}
+
+.drop_preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop_preview img {
+    width: 350px;
+}
+
+.box_Shadow_example {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(222deg, rgba(244,67,54,1) 0%, rgba(162,12,1,1) 100%);
+}
+
+.color_Grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.col_color{
+    grid-column: span 4;
+}
+
+@media screen and (max-width: 1024px) {
+    .top_box {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .preview_wraper,
+    .code_box,
+    .copyBtn {
+        width: 400px;
+    }
+
+    .options {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5px;
+    }
+
+    .responsive_code span,
+    pre, p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .preview_wraper,
+    .code_box,
+    .copyBtn {
+        width: 350px;
+    }
+
+    .input_box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    input {
+        width: 100%;
+    }
+}

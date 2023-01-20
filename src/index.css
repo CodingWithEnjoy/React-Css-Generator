@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Fredoka', sans-serif;
+
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rebeccapurple;
+  border-radius: 50px;
+  width: 5px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(70deg, rgba(122, 8, 122, 1) 30%, rgba(22, 22, 35, 1) 30%, rgba(22, 22, 35, 1) 100%);
+  background-position: center center;
+}

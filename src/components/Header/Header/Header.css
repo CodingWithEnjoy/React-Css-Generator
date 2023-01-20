@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    padding: 15px 25px;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #161623;
+}
+
+.menu_Icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.icon_box_Header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

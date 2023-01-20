@@ -1,0 +1,9 @@
+.filter_preview{
+    background-image: url(./../../../public/images/spring.jpg);
+    background-size: cover;
+}
+
+.sepia_preview{
+    background-image: url(./../../../public/images/flower.webp);
+    background-size: cover;
+}
