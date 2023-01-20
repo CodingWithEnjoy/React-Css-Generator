@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9ecf32f.css",
-    "main.js": "/static/js/main.9277206e.js",
-    "static/media/spring.jpg": "/static/media/spring.55d1481a358813e6afeb.jpg",
-    "static/media/flower.webp": "/static/media/flower.7dbefec39463785edea8.webp",
-    "static/media/Cascadia.woff": "/static/media/Cascadia.9c679782671c61f121fc.woff",
-    "index.html": "/index.html",
-    "main.f9ecf32f.css.map": "/static/css/main.f9ecf32f.css.map",
-    "main.9277206e.js.map": "/static/js/main.9277206e.js.map"
+    "main.css": "/React-Css-Generator/static/css/main.efa5d43a.css",
+    "main.js": "/React-Css-Generator/static/js/main.9277206e.js",
+    "static/media/spring.jpg": "/React-Css-Generator/static/media/spring.55d1481a358813e6afeb.jpg",
+    "static/media/flower.webp": "/React-Css-Generator/static/media/flower.7dbefec39463785edea8.webp",
+    "static/media/Cascadia.woff": "/React-Css-Generator/static/media/Cascadia.9c679782671c61f121fc.woff",
+    "index.html": "/React-Css-Generator/index.html",
+    "main.efa5d43a.css.map": "/React-Css-Generator/static/css/main.efa5d43a.css.map",
+    "main.9277206e.js.map": "/React-Css-Generator/static/js/main.9277206e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9ecf32f.css",
+    "static/css/main.efa5d43a.css",
     "static/js/main.9277206e.js"
   ]
 }
